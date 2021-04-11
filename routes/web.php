@@ -88,3 +88,4 @@ Route::prefix('lecturer')->group(function () {
     Route::get('/password/reset/{token}', 'Auth\LecturerResetPasswordController@showResetForm')->name('lecturer.password.reset');
     Route::post('/password/reset', 'Auth\LecturerResetPasswordController@reset')->name('lecturer.password.update');
 });
+
