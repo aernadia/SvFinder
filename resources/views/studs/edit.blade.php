@@ -36,6 +36,18 @@
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="form-group">
+                    <strong>Student Email:</strong>
+                    <input type="string" name="stu_email" value="{{ $stud->stu_email }}" class="form-control" placeholder="Student Email">
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12">
+                <div class="form-group">
+                    <strong>Password:</strong>
+                    <input type="string" name="pw" value="{{ $stud->pw }}" class="form-control" placeholder="Password">
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12">
+                <div class="form-group">
                     <strong>Student Name:</strong>
                     <textarea class="form-control" style="height:150px" name="stud_name" placeholder="Student Name">{{ $stud->stud_name}}</textarea>
                 </div>

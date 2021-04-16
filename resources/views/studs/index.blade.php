@@ -22,6 +22,8 @@
         <tr>
             <th>No</th>
             <th>Student ID</th>
+            <th>Email</th>
+            <th>Password</th>
             <th>Name</th>
             <th>Program Code</th>
             <th width="250px">Action</th>
@@ -30,6 +32,8 @@
         <tr>
             <td>{{ ++$i }}</td>
             <td>{{ $stud->stud_id }}</td>
+            <td>{{ $stud->stu_email }}</td>
+            <td>{{ $stud->pw }}</td>
             <td>{{ $stud->stud_name }}</td>
             <td>{{ $stud->prog_code }}</td>
             <td>

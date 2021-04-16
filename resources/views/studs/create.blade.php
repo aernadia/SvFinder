@@ -41,6 +41,18 @@
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
+                <strong>Student Email:</strong>
+                <input type="string" name="stu_email" class="form-control" placeholder="Student Email">
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12">
+            <div class="form-group">
+                <strong>Password:</strong>
+                <input type="string" name="pw" class="form-control" placeholder="Password">
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12">
+            <div class="form-group">
                 <strong>Program Code:</strong>
                 <input type="string" name="prog_code" class="form-control" placeholder="Program code">
             </div>

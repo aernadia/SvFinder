@@ -8,6 +8,6 @@ class Stud extends Model
 {
     //
     protected $fillable = [
-        'stud_id', 'stud_name', 'prog_code'
+        'stud_id', 'stu_email','pw', 'stud_name', 'prog_code'
       ];
 }

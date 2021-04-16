@@ -16,6 +16,8 @@ class CreateStudTable extends Migration
         Schema::create('studs', function (Blueprint $table) {
             $table->increments('id');
             $table->string('stud_id');
+            $table->string('stu_email');
+            $table->string('pw');
             $table->text('stud_name');
             $table->string('prog_code');
             $table->timestamps();
