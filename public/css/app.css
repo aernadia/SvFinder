@@ -4429,7 +4429,20 @@ input[type=button].btn-block {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
+  background-color: #7dbae6;
 }
+
+.nav-link1 {
+  display: block;
+  padding: 0.5rem 1rem;
+  background-color: #d3ecd3;
+}
+
+.nav-link2 {
+  display: block;
+  padding: 0.5rem 1rem;
+  background-color: #7de4e6;
+} 
 
 .nav-link:hover,
 .nav-link:focus {
@@ -4455,7 +4468,8 @@ input[type=button].btn-block {
 
 .nav-tabs .nav-link:hover,
 .nav-tabs .nav-link:focus {
-  border-color: #e9ecef #e9ecef #dee2e6;
+  
+  border-color: #630f32 #06294b #0b2d4e;
 }
 
 .nav-tabs .nav-link.disabled {

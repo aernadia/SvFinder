@@ -43,6 +43,10 @@ Route::prefix('admin')->group(function () {
     Route::post('/password/email', 'Auth\AdminForgotPasswordController@sendResetLinkEmail')->name('admin.password.email');
     Route::get('/password/reset/{token}', 'Auth\AdminResetPasswordController@showResetForm')->name('admin.password.reset');
     Route::post('/password/reset', 'Auth\AdminResetPasswordController@reset')->name('admin.password.update');
+
+    Route::resource('blogs','BlogController');
+    Route::resource('studs','StudController');
+    
 });
 
 Route::prefix('supervisor')->group(function () {
@@ -88,4 +92,5 @@ Route::prefix('lecturer')->group(function () {
     Route::get('/password/reset/{token}', 'Auth\LecturerResetPasswordController@showResetForm')->name('lecturer.password.reset');
     Route::post('/password/reset', 'Auth\LecturerResetPasswordController@reset')->name('lecturer.password.update');
 });
+
 

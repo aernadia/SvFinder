@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+   
 
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
@@ -11,6 +12,7 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
+    
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -46,11 +48,11 @@
                         <li class="nav-item">
                             <a class="nav-link" href="{{ route('admin.login') }}">{{ __('Admin Login') }}</a>
                         </li>
-                        @if (Route::has('register'))
+                        {{-- @if (Route::has('register'))
                             <li class="nav-item">
-                                <a class="nav-link" href="{{ route('admin.register') }}">{{ __('Register') }}</a>
+                                <a class="nav-link2" href="{{ route('admin.register') }}">{{ __('Register') }}</a>
                             </li>
-                        @endif
+                        @endif --}}
                         @else
                             <li class="nav-item dropdown">
                                 <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button"
